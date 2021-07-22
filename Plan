@@ -1,0 +1,16 @@
+Database on growing Jamaican food
+MVP - DB about when to sew, harvest, info about crop
+    - One to many will be crop, growing tips
+    - Many to many will be soil type, flavour profile, indoor / outdoor
+    - Search and filter ability
+
+Second round of advancement
+- Owner to create, add and comment tips on different crops, authentication
+- Map of history of crops, original location
+- Filler pages, history of Jamaican cuisine, Ital. 
+
+Third round of advancement 
+- Recipe guide
+    - Filtered by buttoms for dynamic guide (usually recipes say (serves 3 - try and make dynamic))
+    - Same recipe, different styles, Ital, Authentic, British
+
