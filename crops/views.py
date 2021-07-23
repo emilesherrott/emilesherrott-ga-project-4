@@ -2,21 +2,25 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import NotFound
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 from .models import Crop
-from .serializers import CropSerializer
+from .serializers.common import CropSerializer
+from .serializers.populated import PopulatedCropSerializer
 # Create your views here.
 
 
 
 class CropListView(APIView):
+    permission_classes = (IsAuthenticatedOrReadOnly, )
 
     def get(self, _request):
         crops = Crop.object.all()
-        serialized_crops = CropSerializer(crops, many=True)
+        serialized_crops = PopulatedCropSerializer(crops, many=True)
         return Response(serialized_crops.data, status=status.HTTP_200_OK)
 
     def post(self, request):
+        request.data['owner'] = request.user.id
         crop_to_add = CropSerializer(data=request.data)
         if crop_to_add.is_valid():
             crop_to_add.save()
@@ -35,7 +39,7 @@ class CropDetailView(APIView):
 
     def get(self, _request, pk):
         individual_crop = self.get_crop(pk=pk)
-        serialized_individual_crop = CropSerializer(individual_crop)
+        serialized_individual_crop = PopulatedCropSerializer(individual_crop)
         return Response(serialized_individual_crop.data, status=status.HTTP_200_OK) 
 
 

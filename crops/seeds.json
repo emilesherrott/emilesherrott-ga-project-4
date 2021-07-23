@@ -1,16 +1,1 @@
 [
-    {
-        "model": "crops.crop",
-        "pk": 1,
-        "fields": {
-            "title_english": "Thyme",
-            "title_patois": "Thyme",
-            "plant_size": 25,
-            "average_yield": "3kg",
-            "how_to_care": "with love",
-            "description": "smells nice",
-            "how_to_store": "in food"
-        }
-    }
-]
-
