@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+.main-background {
+  background-color: #e9c46a;
+}
+
+.grows-main-background {
+  background-color: #2b2b2b;
+}
+
+.home-strip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.home-pair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-yellow-container {
+  background: #e9c46a;
+}
+
+.home-green-container {
+  background: #269e40;
+  padding: 2vw;
+}
+
+.home-black-container {
+  background: #2b2b2b;
+  padding: 2vw;
+}
+
+.grows-main-container {
+  height: 35vh;
+}
+
+.grows-secondary-container {
+  padding-top: 10vh;
+}
+
+.padding-home-main {
+  padding: 4vh 2vh 2vh 4vh;
+}
+
+.home-green-text {
+  color: #efefef;
+}
+
+.home-black-text {
+  color: #efefef;
+}
+
+.home-marquee-text {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.home-green-title {
+  font-family: "Permanent Marker", cursive;
+  -webkit-transform: rotate(-6deg);
+          transform: rotate(-6deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  text-transform: uppercase;
+}
+
+.home-black-title {
+  font-family: "Permanent Marker", cursive;
+  -webkit-transform: rotate(-6deg);
+          transform: rotate(-6deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.grows-title-text {
+  font-family: "Permanent Marker", cursive;
+}
+
+.grows-main-text {
+  color: #efefef;
+}
+
+.grows-subheader-text {
+  font-family: "Permanent Marker", cursive;
+  color: #e9c46a;
+}
+
+.cropscard-title-text {
+  color: #2b2b2b;
+}
+
+.home-wray-and-nephew {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  right: 0;
+  top: 10%;
+}
+
+.tile {
+  padding-top: 5vh;
+}
+
+.cropscard-tile {
+  width: 20vw;
+}
+
+.image {
+  width: 20vw;
+}
+/*# sourceMappingURL=main.css.map */

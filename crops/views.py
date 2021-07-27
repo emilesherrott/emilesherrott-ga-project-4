@@ -15,7 +15,7 @@ class CropListView(APIView):
     permission_classes = (IsAuthenticatedOrReadOnly, )
 
     def get(self, _request):
-        crops = Crop.object.all()
+        crops = Crop.objects.all()
         serialized_crops = PopulatedCropSerializer(crops, many=True)
         return Response(serialized_crops.data, status=status.HTTP_200_OK)
 

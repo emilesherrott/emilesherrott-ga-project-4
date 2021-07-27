@@ -9,6 +9,7 @@ class Crop(models.Model):
     how_to_care = models.CharField(max_length=400)
     description = models.CharField(max_length=400)
     how_to_store = models.CharField(max_length=400)
+    image = models.CharField(max_length=400)
     sow = models.ManyToManyField(
         "sows.Sow",
         related_name="sows"

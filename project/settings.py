@@ -83,6 +83,8 @@ DATABASES = {
         'NAME': 'jamaican-food',
         'HOST': 'localhost',
         'PORT': 5432,
+        'USER': 'postgres',
+        'PASSWORD': 'KikiWan91',
  }
 }
 

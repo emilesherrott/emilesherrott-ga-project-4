@@ -1,0 +1,45 @@
+.home-green-text {
+  color: #efefef;
+}
+
+.home-black-text {
+  color: #efefef;
+}
+
+.home-marquee-text {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.home-green-title {
+  font-family: $secondaryTitleFont;
+  transform: rotate(-6deg);
+  transform-origin: top left;
+  text-transform: uppercase;
+}
+
+.home-black-title {
+  font-family: $secondaryTitleFont;
+  transform: rotate(-6deg);
+  transform-origin: top left;
+}
+
+
+
+.grows-title-text {
+  font-family: $secondaryTitleFont
+}
+
+.grows-main-text {
+  color: #efefef;
+}
+
+.grows-subheader-text {
+  font-family: $secondaryTitleFont;
+  color: $mainYellow;
+}
+
+
+.cropscard-title-text {
+  color: $mainBlack;
+}

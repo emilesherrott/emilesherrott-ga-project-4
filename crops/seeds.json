@@ -1,1 +1,19 @@
 [
+{
+  "model": "crops.crop",
+  "pk": 1,
+  "fields": {
+    "title_english": "Yam",
+    "title_patois": "Yam",
+    "plant_size": 45,
+    "average_yield": "2kg",
+    "how_to_care": "With love",
+    "description": "Like a potato",
+    "how_to_store": "Cooool place",
+    "owner": 1,
+    "sow": [
+      1
+    ]
+  }
+}
+]
