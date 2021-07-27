@@ -103,6 +103,7 @@
 
 .cropscard-title-text {
   color: #2b2b2b;
+  font-family: "Roboto Mono", monospace;
 }
 
 .home-wray-and-nephew {
@@ -121,9 +122,15 @@
 
 .cropscard-tile {
   width: 20vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .image {
   width: 20vw;
+}
+
+.cropsshow-image {
+  width: 15vw;
 }
 /*# sourceMappingURL=main.css.map */

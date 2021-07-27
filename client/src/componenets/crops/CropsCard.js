@@ -7,8 +7,7 @@ const CropsCard = (crop) => {
     <div className="cropscard-tile">
       <Link to={`/grow/${crop.id}`}>
         <img src={crop.image} className="image" />
-        <div className="cropscard-title-text">{crop.title_english}</div>
-        <div>{crop.plant_size}</div>
+        <div className="d-flex justify-content-center cropscard-title-text">{crop.title_english}</div>
       </Link>
     </div>
   )

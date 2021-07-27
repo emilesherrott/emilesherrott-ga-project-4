@@ -71,7 +71,7 @@ const Grow = () => {
         <section className="section">
           <div className="container tile">
             {crops ?
-              <div className="">
+              <div className="d-flex flex-wrap justify-content-around">
                 {crops.map(crop => (
                   <CropsCard key={crop.id} {...crop} />
                 ))}
