@@ -3,16 +3,227 @@
   "model": "crops.crop",
   "pk": 1,
   "fields": {
-    "title_english": "Yam",
-    "title_patois": "Yam",
+    "title_english": "Thyme",
+    "title_patois": "Thyme",
+    "inside_plant": true,
     "plant_size": 45,
     "average_yield": "2kg",
     "how_to_care": "With love",
-    "description": "Like a potato",
     "how_to_store": "Cooool place",
+    "description": "Like a potato",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627345665/thyme.jpg",
     "owner": 1,
     "sow": [
       1
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 2,
+  "fields": {
+    "title_english": "Mint",
+    "title_patois": "Mint",
+    "inside_plant": true,
+    "plant_size": 34,
+    "average_yield": "34",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Minty",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627366651/mint.jpg",
+    "owner": 1,
+    "sow": [
+      2
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 3,
+  "fields": {
+    "title_english": "Coriander",
+    "title_patois": "Coriander",
+    "inside_plant": true,
+    "plant_size": 45,
+    "average_yield": "34",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Soapy",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627366944/coriander.jpg",
+    "owner": 1,
+    "sow": [
+      3
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 4,
+  "fields": {
+    "title_english": "Parsley",
+    "title_patois": "Parsely",
+    "inside_plant": true,
+    "plant_size": 45,
+    "average_yield": "45",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Parsely",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627367241/parsley.jpg",
+    "owner": 1,
+    "sow": [
+      2
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 5,
+  "fields": {
+    "title_english": "Scotch Bonnet",
+    "title_patois": "Scotch Bonnet",
+    "inside_plant": false,
+    "plant_size": 45,
+    "average_yield": "34",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Hot",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627367786/scotch.jpg",
+    "owner": 1,
+    "sow": [
+      2
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 6,
+  "fields": {
+    "title_english": "Yam",
+    "title_patois": "Yam",
+    "inside_plant": false,
+    "plant_size": 78,
+    "average_yield": "34",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Yam",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627368267/yam.jpg",
+    "owner": 1,
+    "sow": [
+      1
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 7,
+  "fields": {
+    "title_english": "Pumpkin",
+    "title_patois": "Pumpkin",
+    "inside_plant": false,
+    "plant_size": 45,
+    "average_yield": "34",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Soapy",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627368786/pumpkin.jpg",
+    "owner": 1,
+    "sow": [
+      3
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 8,
+  "fields": {
+    "title_english": "Sorrel",
+    "title_patois": "Sorrel",
+    "inside_plant": false,
+    "plant_size": 45,
+    "average_yield": "34",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Soapy",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627369454/sorrel.jpg",
+    "owner": 1,
+    "sow": [
+      2
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 9,
+  "fields": {
+    "title_english": "Spring Onion",
+    "title_patois": "Scallion",
+    "inside_plant": false,
+    "plant_size": 23,
+    "average_yield": "34",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Soapy",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627369662/spring%20onion.jpg",
+    "owner": 1,
+    "sow": [
+      2
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 10,
+  "fields": {
+    "title_english": "Tomatoes",
+    "title_patois": "Tomatoes",
+    "inside_plant": false,
+    "plant_size": 7,
+    "average_yield": "34",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Soapy",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627369988/tomatoes.jpg",
+    "owner": 1,
+    "sow": [
+      3
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 11,
+  "fields": {
+    "title_english": "Garlic",
+    "title_patois": "Garlic",
+    "inside_plant": false,
+    "plant_size": 3,
+    "average_yield": "34",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Soapy",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627370286/garlic.jpg",
+    "owner": 1,
+    "sow": [
+      2
+    ]
+  }
+},
+{
+  "model": "crops.crop",
+  "pk": 12,
+  "fields": {
+    "title_english": "Cassava",
+    "title_patois": "Cassava",
+    "inside_plant": false,
+    "plant_size": 56,
+    "average_yield": "34",
+    "how_to_care": "With love",
+    "how_to_store": "Butter",
+    "description": "Soapy",
+    "image": "https://res.cloudinary.com/dhdxwd8gl/image/upload/v1627370614/cassava.jpg",
+    "owner": 1,
+    "sow": [
+      2
     ]
   }
 }

@@ -11,6 +11,7 @@ class Crop(models.Model):
     how_to_store = models.CharField(max_length=400)
     description = models.CharField(max_length=400)
     image = models.CharField(max_length=400)
+    instructions = models.JSONField()
     sow = models.ManyToManyField(
         "sows.Sow",
         related_name="sows"

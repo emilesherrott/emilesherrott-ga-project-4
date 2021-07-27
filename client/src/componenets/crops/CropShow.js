@@ -26,13 +26,15 @@ const CropShow = () => {
 
   if (!crop) return null
   return (
-    <div className="row">
-      <div className="col-8">
-        <h1>{crop.title_english}</h1>
-        <p>{crop.description}</p>
-      </div>
-      <div className="col-4">
-        <img src={crop.image} className="cropsshow-image" />
+    <div className="container">
+      <div className="row">
+        <div className="col-8">
+          <h1>{crop.title_english}</h1>
+          <p>{crop.description}</p>
+        </div>
+        <div className="col-4">
+          <img src={crop.image} className="cropsshow-image" />
+        </div>
       </div>
     </div>
   )

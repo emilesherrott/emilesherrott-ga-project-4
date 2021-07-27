@@ -25,10 +25,10 @@ const Nav = () => {
                 A Likkle More
               </Link>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link className="dropdown-item" to="/ital">Wa yuh seh, Vegan?</Link></li>
-                <li><Link className="dropdown-item" to="#">Tales Of JA</Link></li>
+                <li><Link className="dropdown-item" to="/ital">Who Am I?</Link></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><Link className="dropdown-item" to="#">Something else here</Link></li>
+                <li><Link className="dropdown-item" to="/register">Register</Link></li>
+                <li><Link className="dropdown-item" to="/login">Login</Link></li>
               </ul>
             </li>
             <li className="nav-item">
