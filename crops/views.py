@@ -24,7 +24,7 @@ class CropListView(APIView):
         crop_to_add = CropSerializer(data=request.data)
         if crop_to_add.is_valid():
             crop_to_add.save()
-            return Response(crop_to_add, status=status.HTTP_201_CREATED)
+            return Response(crop_to_add.data, status=status.HTTP_201_CREATED)
         return Response(crop_to_add.errors, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
 
         

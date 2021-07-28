@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from 'react'
-import { useParams, useHistory } from 'react-router-dom'
+import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 import axios from 'axios'
 import { getTokenFromLocalStorage } from '../helpers/auth'
 import CropForm from './CropForm'
 
-const CropEdit = () => {
+const CropNew = () => {
   const history = useHistory()
-  const { id } = useParams()
   const [formData, setFormData] = useState({
     title_english: '',
     title_patois: '',
@@ -34,16 +33,7 @@ const CropEdit = () => {
     sow: '',
   })
 
-  useEffect(() => {
-    const getData = async () => {
-      const { data } = await axios.get(`/api/crops/${id}`)
-      setFormData(data)
-    }
-    getData()
-  },[id])
-
   const handleChange = (event) => {
-    console.log(event)
     const newFormData = { ...formData, [event.target.name]: event.target.value }
     const newErrors = { ...errors, [event.target.name]: '' }
     setFormData(newFormData)
@@ -53,18 +43,17 @@ const CropEdit = () => {
   const handleSubmit = async (event) => {
     event.preventDefault()
     try {
-      await axios.put('/api/crops/1/', formData,
+      await axios.post('/api/crops/', formData,
         {
           headers: { Authorization: `Bearer ${getTokenFromLocalStorage()}` },
         }
       )
-      history.push(`/grow/${id}/`)
+      history.push('/crops')
     } catch (err) {
       setErrors(err.response.data.errors)
     }
   }
 
-  console.log(setFormData)
   return (
     <div>
       <div className="container">
@@ -73,11 +62,11 @@ const CropEdit = () => {
           errors={errors}
           handleChange={handleChange}
           handleSubmit={handleSubmit}
-          buttonText="Edit Crop"
+          buttonText="Mek A Crop"
         />
       </div>
     </div>
   )
 }
 
-export default CropEdit
+export default CropNew

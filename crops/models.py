@@ -9,7 +9,7 @@ class Crop(models.Model):
     average_yield = models.CharField(max_length=50)
     how_to_care = models.CharField(max_length=400)
     how_to_store = models.CharField(max_length=400)
-    description = models.CharField(max_length=400)
+    description = models.CharField(max_length=4000)
     image = models.CharField(max_length=400)
     instructions = models.JSONField()
     sow = models.ManyToManyField(
