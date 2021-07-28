@@ -34,7 +34,7 @@ const CropShow = () => {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`/api/crops/${id}`,
+      await axios.delete(`/api/grow/${id}`,
         {
           headers: {
             Authorization: `Bearer ${getTokenFromLocalStorage()}`,
@@ -64,7 +64,7 @@ const CropShow = () => {
                 <button onClick={handleDelete}>Delete Crop</button>
               </div>
               <div>
-                <Link to={`api/crops/${id}/edit`}>Edit Crop</Link>
+                <Link to={`/grow/${id}/edit`}>Edit Crop</Link>
               </div>
             </div>
           }
