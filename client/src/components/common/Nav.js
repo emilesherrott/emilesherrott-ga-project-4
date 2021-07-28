@@ -1,7 +1,24 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
+
+import { getPayload } from '../helpers/auth'
 
 const Nav = () => {
+  const history = useHistory()
+
+  const handleLogout = () => {
+    window.localStorage.removeItem('token')
+    history.push('/')
+  }
+
+  const userIsAuthenticated = () => {
+    const payload = getPayload()
+    if (!payload) return false
+    const now = Math.round(Date.now() / 1000)
+    return now < payload.exp
+  }
+
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -27,8 +44,14 @@ const Nav = () => {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><Link className="dropdown-item" to="/ital">Who Am I?</Link></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><Link className="dropdown-item" to="/register">Register</Link></li>
-                <li><Link className="dropdown-item" to="/login">Login</Link></li>
+                {!userIsAuthenticated() ?
+                  <>
+                    <li><Link className="dropdown-item" to="/register">Register</Link></li>
+                    <li><Link className="dropdown-item" to="/login">Login</Link></li>
+                  </>
+                  :
+                  <li onClick={handleLogout}><Link className="dropdown-item" to="#">Logout</Link></li>
+                }
               </ul>
             </li>
             <li className="nav-item">
