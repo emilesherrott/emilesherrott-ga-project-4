@@ -9,6 +9,8 @@ import redStripe from '../../assets/logos/red-stripe.png'
 import flag from '../../assets/logos/flag-map.png'
 import wray from '../../assets/logos/wray-and-nephew.png'
 
+import ItalJerk from '../ItalJerk'
+
 
 const Home = () => {
 
@@ -26,7 +28,10 @@ const Home = () => {
         </div>
         <div className="col-sm home-black-container home-black-text">
           <h2 className="home-black-title">Who am I?</h2>
-          <p className="home-text">Half Jamaican, half Scottish - fully committed to learn how to code lovely websites.</p>
+          <p className="home-text">Jamaica has the fastest runners on earth</p>
+          <p className="home-text">Jamaica has the most record producers per capita</p>
+          <p className="home-text">Jamaica has the most rum bars per square mile</p>
+          <p className="home-text">Jamaica has a bobsled team</p>
         </div>
       </div>
       <div className="d-flex align-items-center justify-content-evenly">
@@ -74,6 +79,9 @@ const Home = () => {
           </Link>
         </div>
       </div >
+      <div className="ital-jerk">
+        <ItalJerk />
+      </div>
     </div >
   )
 

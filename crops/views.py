@@ -51,6 +51,7 @@ class CropDetailView(APIView):
     
     def put(self, request, pk):
         crop_to_update = self.get_crop(pk=pk)
+        print(crop_to_update)
         updated_crop = CropSerializer(crop_to_update, data=request.data)
         if updated_crop.is_valid():
             updated_crop.save()

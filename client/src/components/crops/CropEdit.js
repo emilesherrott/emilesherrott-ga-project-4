@@ -7,19 +7,19 @@ import CropForm from './CropForm'
 const CropEdit = () => {
   const history = useHistory()
   const { id } = useParams()
-  const [formData, setFormData] = useState({
-    title_english: '',
-    title_patois: '',
-    inside_plant: '',
-    plant_size: '',
-    average_yield: '',
-    how_to_care: '',
-    how_to_store: '',
-    description: '',
-    image: '',
-    instructions: '',
-    sow: '',
-  })
+  const [formData, setFormData] = useState(null)
+  // title_english: '',
+  // title_patois: '',
+  // inside_plant: '',
+  // plant_size: '',
+  // average_yield: '',
+  // how_to_care: '',
+  // how_to_store: '',
+  // description: '',
+  // image: '',
+  // instructions: '',
+  // sow: '',
+
   const [errors, setErrors] = useState({
     title_english: '',
     title_patois: '',
@@ -40,7 +40,7 @@ const CropEdit = () => {
       setFormData(data)
     }
     getData()
-  },[id])
+  }, [id])
 
   const handleChange = (event) => {
     console.log(event)
@@ -52,6 +52,7 @@ const CropEdit = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault()
+    console.log('REACHED', formData)
     try {
       await axios.put('/api/crops/1/', formData,
         {

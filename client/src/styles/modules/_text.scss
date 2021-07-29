@@ -15,6 +15,7 @@
 }
 
 .home-green-title {
+  margin-top:2vh;
   font-family: $secondaryTitleFont;
   transform: rotate(-6deg);
   transform-origin: top left;
@@ -22,6 +23,7 @@
 }
 
 .home-black-title {
+  margin-top:2vh;
   font-family: $secondaryTitleFont;
   transform: rotate(-6deg);
   transform-origin: top left;
@@ -42,7 +44,8 @@
 
 
 .grows-title-text {
-  font-family: $secondaryTitleFont
+  font-family: $secondaryTitleFont;
+  padding-top: 10vh;
 }
 
 .grows-main-text {
