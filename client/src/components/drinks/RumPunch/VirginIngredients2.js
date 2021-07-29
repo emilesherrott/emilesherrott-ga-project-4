@@ -4,12 +4,12 @@ const VirginIngredients2 = () => {
 
   return (
     <ul>
-      <li>250ml - White Rum</li>
-      <li>150ml - Dark Rum</li>
-      <li>200ml - Strawberry Syrup</li>
-      <li>250ml - Pineapple Juice</li>
-      <li>250ml - Orange Juice</li>
-      <li>Juice of 4 Limes</li>
+      <li><sup>1</sup>/<sub>3</sub> tbsp - Rum Extract</li>
+      <li>150ml - Apple Juice</li>
+      <li>120ml - Strawberry Syrup</li>
+      <li>200ml - Pineapple Juice</li>
+      <li>200ml - Orange Juice</li>
+      <li>Juice of 2 Limes</li>
       <li>Pinch of grated nutmeg</li>
       <li>Dash of bitters</li>
       <li>Ice Cubes</li>

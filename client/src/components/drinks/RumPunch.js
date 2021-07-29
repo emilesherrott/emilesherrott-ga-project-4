@@ -82,7 +82,7 @@ const RumPunch = () => {
                 <span onClick={serveLess}> &#8722; </span>
               </div>
               <div>
-                <h3 onClick={toggleVirgin} className={virginToggle ? 'meals-ital-true' : 'meals-ital-false'}>Ital</h3>
+                <h3 onClick={toggleVirgin} className={virginToggle ? 'drinks-virgin-true' : 'drinks-virgin-false'}>Virgin</h3>
               </div>
             </div>
           </div>

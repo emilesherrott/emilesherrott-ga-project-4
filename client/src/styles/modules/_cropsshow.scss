@@ -1,9 +1,11 @@
 .cropshow-title {
   margin-top: 2vh;
+  font-family: $secondaryTitleFont;
 }
 
 .cropshow-subtitle {
   font-weight: bold;
+  font-family: $thirdTitleFont;
 }
 
 .cropshow-mainbody {
@@ -13,4 +15,30 @@
 .cropsshow-image {
   margin-top: 5vh;
   width: 15vw;
+}
+
+
+.cropsshow-edit-button {
+  width: fit-content;
+  padding: 1vw;
+  border-radius: 8px;
+  background: $mainGreen;
+  color: #fffef6;
+  font-family: $secondaryTitleFont;
+}
+
+.cropsshow-delete-button {
+  width: fit-content;
+  padding: 1vw;
+  border-radius: 8px;
+  background: $mainYellow;
+  font-family: $secondaryTitleFont;
+}
+
+.cropshow-link {
+  color: #fffef6;
+  text-decoration: none;
+  &:hover {
+    color: #fffef6;
+  }
 }

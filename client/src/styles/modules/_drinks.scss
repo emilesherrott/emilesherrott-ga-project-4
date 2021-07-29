@@ -34,7 +34,7 @@
   font-weight: bolder;
 }
 
-.drinks-ital-false {
+.drinks-virgin-false {
   margin-left: 2vw;
   padding: 1vw;
   border-radius: 8px;
@@ -43,12 +43,12 @@
   font-family: $secondaryTitleFont;
 }
 
-.drinks-ital-true {
+.drinks-virgin-true {
   margin-left: 2vw;
   padding: 1vw;
   border-radius: 8px;
-  background: $mainGreen;
-  color: $mainYellow;
+  background: #d92155;
+  color: #f5c9d5;
   font-family: $secondaryTitleFont;
 }
 

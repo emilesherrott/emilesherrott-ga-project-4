@@ -1,0 +1,35 @@
+.cropform-title {
+  margin-top: 5vh;
+  font-family: $secondaryTitleFont;
+  text-align: center;
+}
+
+.cropform-form {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.cropform-div {
+  width: 35vw;
+}
+
+.cropform-label {
+  font-family: $thirdTitleFont;
+}
+
+.cropform-input {
+  margin-bottom: 2vh;
+  width: 40vw;
+}
+
+.cropform-button {
+  width: fit-content;
+  padding: 1vw;
+  border-radius: 8px;
+  background: $mainGreen;
+  color: #fffef6;
+  font-family: $secondaryTitleFont;
+}

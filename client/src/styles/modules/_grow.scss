@@ -1,5 +1,12 @@
 .grow-title {
   color: $mainBlack;
+  font-family: $thirdTitleFont;
   text-align: center;
+  margin-top: 5vh;
+}
+
+.grow-subtitle, .grow-text {
+  color: $mainBlack;
+  font-family: $thirdTitleFont;
   margin-top: 5vh;
 }

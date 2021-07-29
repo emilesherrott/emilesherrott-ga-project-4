@@ -4,7 +4,7 @@ const Brief = () => {
 
   return (
     <p>
-      Jamaica&#39;s national dish and my personal favourite. Eat with some friend dumplings pon di side - <span className="brief-highlight">YAH MON!</span> Our love for ackee and saltfish started at a young age when my mum made it for Christmas breakfast. It&#39;s so versitle you can eat it any time of the day. You buy ackee from the shops in the UK but in Jamaica it&#39;s common to see ackee growing from the trees. Be careful, if it&#39;s not ripe it&#39;s poisonous.
+      There&#39;s nothing like a fruity rum punch at a sunny BBQ - a drink that is truly the life of a party. It&#39;s a mixture of different rums, balanced with ice-cold fruit, juiced and sliced, then dashed into a pitcher that&#39;s big enough for everyone to dive into. The third main ingredient is a strawberry-flavourted syrup that blends into the juices and gives the drink an amazing red colour. I call the drink <span className="brief-highlight">The Silent Killer.</span> Initially, it tastes like a harmless sweet soft drink; however, the rum is there.
     </p>
   )
 }
