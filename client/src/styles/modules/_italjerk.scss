@@ -1,4 +1,20 @@
 .italjerk-container {
   background: #d92155;
   color: #fffef6;
+  height: 30vh;
+}
+
+.italjerk-title {
+  font-family: $secondaryTitleFont;
+  width: fit-content;
+  transform: rotate(90deg);
+  transform-origin: bottom left; 
+  margin-top: -1vw;
+  margin-left: 1vw;
+}
+
+.italjerk-text {
+  margin-left: 4vw;
+  margin-top: -1vw;
+  font-family: $thirdTitleFont
 }

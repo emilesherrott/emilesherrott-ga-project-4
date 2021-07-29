@@ -1,0 +1,27 @@
+.loginreg-container {
+  margin-top: 5vh;
+}
+
+.regform-label {
+  font-family: $secondaryTitleFont;
+}
+
+.loginreg-form {
+  width: 40vw;
+}
+
+.logreg-block {
+  margin-bottom: 2vh;
+}
+
+.logreg-button {
+  margin-top: 2vh;
+  font-size: 26px;
+  border: none;
+  width: fit-content;
+  padding: 1vw;
+  border-radius: 8px;
+  background: #d92155;
+  color: #fffef6;
+  font-family: $secondaryTitleFont;
+}

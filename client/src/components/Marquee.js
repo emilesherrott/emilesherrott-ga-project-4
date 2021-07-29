@@ -4,9 +4,6 @@ const Marquee = () => {
 
   return (
     <marquee className="home-marquee-text" width="100%" direction="left" height="50px">
-This, I wanna tell you, is the Trenchtown experience
-All the way from Trenchtown, Jamaica
-Bob Marley and the Wailers, come on!
 One good thing about music, when it hits you feel no pain
 One good thing about music, when it hits you feel no pain
 So hit me with music, hit me with music now, yeah

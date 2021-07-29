@@ -27,7 +27,7 @@ const Home = () => {
           <p className="home-text">Jamaican dishes are variations on cuisines brought to the island from all across the world, often leveled up with local produce and spices. The reach of the British colonialism, the history of African slavery, post-abolition immigration culminates in a diverse and broad cuisine.</p>
         </div>
         <div className="col-sm home-black-container home-black-text">
-          <h2 className="home-black-title">Who am I?</h2>
+          <h2 className="home-black-title">Small island yu seh?</h2>
           <p className="home-text">Jamaica has the fastest runners on earth</p>
           <p className="home-text">Jamaica has the most record producers per capita</p>
           <p className="home-text">Jamaica has the most rum bars per square mile</p>
@@ -78,8 +78,8 @@ const Home = () => {
             </div>
           </Link>
         </div>
-      </div >
-      <div className="ital-jerk">
+      </div>
+      <div className="ital-jerk row">
         <ItalJerk />
       </div>
     </div >

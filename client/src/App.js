@@ -7,7 +7,7 @@ import Footer from './components/common/Footer'
 
 import SimmerDown from './components/SimmerDown'
 import RumUp from './components/RumUp'
-import Ital from './components/Ital'
+import WhoAmI from './components/WhoAmI'
 import Grow from './components/Grow'
 
 import CropShow from './components/crops/CropShow'
@@ -30,7 +30,7 @@ const App = () => {
         <Route path='/simmerdown' component={SimmerDown} />
         <Route path='/rumup' component={RumUp} />
         <Route path='/grow' component={Grow} />
-        <Route path='/ital' component={Ital} />
+        <Route path='/whoami' component={WhoAmI} />
         <Route path='/register' component={Register} />
         <Route path='/login' component={Login} />
       </Switch>

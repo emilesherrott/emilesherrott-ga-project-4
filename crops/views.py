@@ -50,6 +50,8 @@ class CropDetailView(APIView):
 
     
     def put(self, request, pk):
+        request.data['owner'] = request.data['owner']['id']
+        request.data['sow'] = [request.data['sow'][0]['id']]
         crop_to_update = self.get_crop(pk=pk)
         print(crop_to_update)
         updated_crop = CropSerializer(crop_to_update, data=request.data)

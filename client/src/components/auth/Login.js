@@ -35,10 +35,10 @@ const Login = () => {
   }
 
   return (
-    <div className="container">
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label htmlFor="exampleInputEmail1">Email</label>
+    <div className="container loginreg-container">
+      <form onSubmit={handleSubmit} className="loginreg-form">
+        <div className="form-group logreg-block">
+          <label htmlFor="exampleInputEmail1" className="regform-label">Email</label>
           <input
             onFocus={handleFocus}
             onChange={handleChange}
@@ -50,8 +50,8 @@ const Login = () => {
             placeholder="Enter Email"
             value={formData.email} />
         </div>
-        <div className="form-group">
-          <label htmlFor="exampleInputPassword1">Password</label>
+        <div className="form-group logreg-block">
+          <label htmlFor="exampleInputPassword1" className="regform-label">Password</label>
           <input
             onFocus={handleFocus}
             onChange={handleChange}
@@ -64,7 +64,7 @@ const Login = () => {
             value={formData.password} />
         </div>
         <div className="">
-          <button type="submit" className="button">Log In</button>
+          <button type="submit" className="logreg-button">Log In</button>
         </div>
       </form>
     </div>

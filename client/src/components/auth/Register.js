@@ -40,79 +40,81 @@ const Register = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="form-group">
-        <label htmlFor="exampleInputUsername1">Username</label>
-        <input
-          type="text"
-          name="username"
-          className="form-control"
-          id="exampleInputUsername1"
-          aria-describedby="usernameHelp"
-          placeholder="Enter username"
-          onChange={handleChange}
-          value={formData.username} />
-      </div>
-      <div className="form-group">
-        <label htmlFor="exampleInputEmail1">Email address</label>
-        <input
-          type="email"
-          name="email"
-          className="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          placeholder="Enter email"
-          onChange={handleChange}
-          value={formData.email} />
-      </div>
-      <div className="form-group">
-        <label htmlFor="exampleInputFirstName1">First name</label>
-        <input
-          type="text"
-          name="first_name"
-          className="form-control"
-          id="exampleInputFirstName1"
-          aria-describedby="first_nameHelp"
-          placeholder="Enter First Name"
-          onChange={handleChange}
-          value={formData.first_name} />
-      </div>
-      <div className="form-group">
-        <label htmlFor="exampleInputLastName1">Last name</label>
-        <input
-          type="text"
-          name="last_name"
-          className="form-control"
-          id="exampleInputLastName1"
-          aria-describedby="last_nameHelp"
-          placeholder="Enter First Name"
-          onChange={handleChange}
-          value={formData.last_name} />
-      </div>
-      <div className="form-group">
-        <label htmlFor="exampleInputPassword1">Password</label>
-        <input
-          type="password"
-          name="password"
-          className="form-control"
-          id="exampleInputPassword1"
-          placeholder="Password"
-          onChange={handleChange}
-          value={formData.password} />
-      </div>
-      <div className="form-group">
-        <label htmlFor="exampleInputPasswordConfirmation1">Password Confirmation</label>
-        <input
-          type="password"
-          name="password_confirmation"
-          className="form-control"
-          id="exampleInputPasswordConfirmation1"
-          placeholder="Password Confirmation"
-          onChange={handleChange}
-          value={formData.password_confirmation} />
-      </div>
-      <button type="submit" className="btn btn-primary">Submit</button>
-    </form>
+    <div className="container loginreg-container">
+      <form onSubmit={handleSubmit} className="loginreg-form">
+        <div className="form-group">
+          <label htmlFor="exampleInputUsername1" className="regform-label">Username</label>
+          <input
+            type="text"
+            name="username"
+            className="form-control"
+            id="exampleInputUsername1"
+            aria-describedby="usernameHelp"
+            placeholder="Enter username"
+            onChange={handleChange}
+            value={formData.username} />
+        </div>
+        <div className="form-group">
+          <label htmlFor="exampleInputEmail1" className="regform-label">Email address</label>
+          <input
+            type="email"
+            name="email"
+            className="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+            onChange={handleChange}
+            value={formData.email} />
+        </div>
+        <div className="form-group">
+          <label htmlFor="exampleInputFirstName1">First name</label>
+          <input
+            type="text"
+            name="first_name"
+            className="form-control"
+            id="exampleInputFirstName1"
+            aria-describedby="first_nameHelp"
+            placeholder="Enter First Name"
+            onChange={handleChange}
+            value={formData.first_name} />
+        </div>
+        <div className="form-group">
+          <label htmlFor="exampleInputLastName1" className="regform-label">Last name</label>
+          <input
+            type="text"
+            name="last_name"
+            className="form-control"
+            id="exampleInputLastName1"
+            aria-describedby="last_nameHelp"
+            placeholder="Enter First Name"
+            onChange={handleChange}
+            value={formData.last_name} />
+        </div>
+        <div className="form-group">
+          <label htmlFor="exampleInputPassword1" className="regform-label">Password</label>
+          <input
+            type="password"
+            name="password"
+            className="form-control"
+            id="exampleInputPassword1"
+            placeholder="Password"
+            onChange={handleChange}
+            value={formData.password} />
+        </div>
+        <div className="form-group">
+          <label htmlFor="exampleInputPasswordConfirmation1" className="regform-label">Password Confirmation</label>
+          <input
+            type="password"
+            name="password_confirmation"
+            className="form-control"
+            id="exampleInputPasswordConfirmation1"
+            placeholder="Password Confirmation"
+            onChange={handleChange}
+            value={formData.password_confirmation} />
+        </div>
+        <button type="submit" className="logreg-button">Submit</button>
+      </form>
+    </div>
   )
 }
 
