@@ -82,7 +82,7 @@ const CropShow = () => {
                 </h3>
               </div>
               <div>
-                <h3 onClick={handleDelete} className="cropsshow-delete-button">Delete Crop</h3>
+                <button onClick={handleDelete} className="cropsshow-delete-button">Delete Crop</button>
               </div>
             </div>
           }
