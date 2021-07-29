@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 
+import DefaultMeal from './meals/DefaultMeal'
 import AckeeAndSaltfish from './meals/AckeeAndSaltfish'
 
 const SimmerDown = () => {
-  const [meal, setMeal] = useState(null)
+  const [meal, setMeal] = useState(<DefaultMeal />)
 
   const goToAckee = () => {
     setMeal(<AckeeAndSaltfish />)
@@ -18,7 +19,7 @@ const SimmerDown = () => {
             <h2 className="grows-subheader-text">Ackee & Saltfish</h2>
           </div>
           <div>
-            <h2 className="grows-subheader-text">Currey Goat</h2>
+            <h2 className="grows-subheader-text">Curry Goat</h2>
           </div>
           <div>
             <h2 className="grows-subheader-text">Red Pea Soup</h2>

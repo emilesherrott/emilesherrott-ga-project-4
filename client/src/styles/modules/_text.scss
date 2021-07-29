@@ -27,6 +27,18 @@
   transform-origin: top left;
 }
 
+.home-text {
+  font-family: $thirdTitleFont;
+}
+
+.home-link {
+  color: $mainBlack;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 
 
 .grows-title-text {

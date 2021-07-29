@@ -2,6 +2,60 @@
   margin-top: 10vh;
 }
 
+.meals-container {
+  margin-top: 6vh;
+}
+
+.meal-default-image {
+  height: 40vh;
+  margin-top: 8vh;
+}
+
+.meal-default-text {
+  height: 40vh;
+  font-family: $thirdTitleFont;
+  font-size: xx-large;
+  margin-top: 7vh;
+  margin-left: 10vw;
+}
+
 .meals-image {
   width: 20vw;
+}
+
+.meals-serve {
+  display: inline;
+}
+
+.meals-plus-minus {
+  padding-bottom: 1vh;
+  padding-left: 2vh;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.meals-ital-false {
+  margin-left: 2vw;
+  padding: 1vw;
+  border-radius: 8px;
+  background: $mainBlack;
+  color: $mainYellow;
+  font-family: $secondaryTitleFont;
+}
+
+.meals-ital-true {
+  margin-left: 2vw;
+  padding: 1vw;
+  border-radius: 8px;
+  background: $mainGreen;
+  color: $mainYellow;
+  font-family: $secondaryTitleFont;
+}
+
+.brief-highlight {
+  text-decoration: underline;
+  text-decoration-color: #c11;
+  text-decoration-style: double;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
