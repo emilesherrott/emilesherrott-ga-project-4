@@ -75,7 +75,7 @@ const CropShow = () => {
 
 
           {userIsOwner(crop.owner.id) &&
-            <div>
+            <div className="d-flex">
               <div>
                 <h3 className="cropsshow-edit-button">
                   <Link to={`/grow/${id}/edit`} className="cropshow-link">Edit Crop</Link>

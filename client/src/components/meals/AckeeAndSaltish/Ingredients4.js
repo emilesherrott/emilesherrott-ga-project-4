@@ -5,7 +5,7 @@ const Ingredients4 = () => {
   return (
     <ul>
       <li>600g - Boneless Saltfish Cod</li>
-      <li>2tbsp - Vegitable Oil</li>
+      <li>2 tbsp - Vegitable Oil</li>
       <li>1 medium - Onion (diced)</li>
       <li>4 - Garlic cloves (diced)</li>
       <li>3 - Spring Onions (sliced)</li>

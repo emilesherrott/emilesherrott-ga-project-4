@@ -2,12 +2,17 @@ import React, { useState } from 'react'
 
 import DefaultMeal from './meals/DefaultMeal'
 import AckeeAndSaltfish from './meals/AckeeAndSaltfish'
+import CurryGoat from './meals/CurryGoat'
 
 const SimmerDown = () => {
   const [meal, setMeal] = useState(<DefaultMeal />)
 
   const goToAckee = () => {
     setMeal(<AckeeAndSaltfish />)
+  }
+
+  const goToCurryGoat = () => {
+    setMeal(<CurryGoat />)
   }
 
   return (
@@ -18,7 +23,7 @@ const SimmerDown = () => {
           <div onClick={goToAckee}>
             <h2 className="grows-subheader-text">Ackee & Saltfish</h2>
           </div>
-          <div>
+          <div onClick={goToCurryGoat}>
             <h2 className="grows-subheader-text">Curry Goat</h2>
           </div>
           <div>
