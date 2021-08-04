@@ -36,7 +36,7 @@ const CropEdit = () => {
 
   useEffect(() => {
     const getData = async () => {
-      const { data } = await axios.get(`/api/crops/${id}`)
+      const { data } = await axios.get(`/api/crops/${id}/`)
       setFormData(data)
     }
     getData()

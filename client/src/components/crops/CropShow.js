@@ -17,7 +17,7 @@ const CropShow = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const { data } = await axios.get(`/api/crops/${id}`)
+        const { data } = await axios.get(`/api/crops/${id}/`)
         setCrop(data)
       } catch (err) {
         setHasError(true)
