@@ -2,20 +2,20 @@ import React, { useState } from 'react'
 
 import curryGoat from '../../assets/meals/currygoat.jpeg'
 
-import Ingredients2 from './CurryGoat/Ingredients2'
-import ItalIngredients2 from './CurryGoat/ItalIngredients2'
-import Ingredients3 from './CurryGoat/Ingredients3'
-import ItalIngredients3 from './CurryGoat/ItalIngredients3'
-import Ingredients4 from './CurryGoat/Ingredients4'
-import ItalIngredients4 from './CurryGoat/ItalIngredients4'
-import Ingredients5 from './CurryGoat/Ingredients5'
-import ItalIngredients5 from './CurryGoat/ItalIngredients5'
-import Ingredients6 from './CurryGoat/Ingredients6'
-import ItalIngredients6 from './CurryGoat/ItalIngredients6'
+import Ingredients2 from './curryGoat/Ingredients2'
+import ItalIngredients2 from './curryGoat/ItalIngredients2'
+import Ingredients3 from './curryGoat/Ingredients3'
+import ItalIngredients3 from './curryGoat/ItalIngredients3'
+import Ingredients4 from './curryGoat/Ingredients4'
+import ItalIngredients4 from './curryGoat/ItalIngredients4'
+import Ingredients5 from './curryGoat/Ingredients5'
+import ItalIngredients5 from './curryGoat/ItalIngredients5'
+import Ingredients6 from './curryGoat/Ingredients6'
+import ItalIngredients6 from './curryGoat/ItalIngredients6'
 
-import Brief from './CurryGoat/Brief'
-import Directions from './CurryGoat/Directions'
-import DirectionsItal from './CurryGoat/DirectionsItal'
+import Brief from './curryGoat/Brief'
+import Directions from './curryGoat/Directions'
+import DirectionsItal from './curryGoat/DirectionsItal'
 
 
 const CurryGoat = () => {

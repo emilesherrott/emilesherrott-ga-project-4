@@ -3,20 +3,20 @@ import React, { useState } from 'react'
 import rumPunch from '../../assets/drinks/rum-punch.jpeg'
 
 
-import Ingredients2 from './RumPunch/Ingredients2'
-import VirginIngredients2 from './RumPunch/VirginIngredients2.js'
-import Ingredients3 from './RumPunch/Ingredients3'
-import VirginIngredients3 from './RumPunch/VirginIngredients3'
-import Ingredients4 from './RumPunch/Ingredients4'
-import VirginIngredients4 from './RumPunch/VirginIngredients4'
-import Ingredients5 from './RumPunch/Ingredients5'
-import VirginIngredients5 from './RumPunch/VirginIngredients5'
-import Ingredients6 from './RumPunch/Ingredients6'
-import VirginIngredients6 from './RumPunch/VirginIngredients6'
+import Ingredients2 from './rumPunch/Ingredients2'
+import VirginIngredients2 from './rumPunch/VirginIngredients2.js'
+import Ingredients3 from './rumPunch/Ingredients3'
+import VirginIngredients3 from './rumPunch/VirginIngredients3'
+import Ingredients4 from './rumPunch/Ingredients4'
+import VirginIngredients4 from './rumPunch/VirginIngredients4'
+import Ingredients5 from './rumPunch/Ingredients5'
+import VirginIngredients5 from './rumPunch/VirginIngredients5'
+import Ingredients6 from './rumPunch/Ingredients6'
+import VirginIngredients6 from './rumPunch/VirginIngredients6'
 
-import Brief from './RumPunch/Brief'
-import Directions from './RumPunch/Directions'
-import DirectionsVirgin from './RumPunch/DirectionsVirgin'
+import Brief from './rumPunch/Brief'
+import Directions from './rumPunch/Directions'
+import DirectionsVirgin from './rumPunch/DirectionsVirgin'
 
 
 const RumPunch = () => {

@@ -3,20 +3,20 @@ import React, { useState } from 'react'
 import ackee from '../../assets/meals/ackee.jpg'
 
 
-import Ingredients2 from './AckeeAndSaltish/Ingredients2'
-import ItalIngredients2 from './AckeeAndSaltish/ItalIngredients2'
-import Ingredients3 from './AckeeAndSaltish/Ingredients3'
-import ItalIngredients3 from './AckeeAndSaltish/ItalIngredients3'
-import Ingredients4 from './AckeeAndSaltish/Ingredients4'
-import ItalIngredients4 from './AckeeAndSaltish/ItalIngredients4'
-import Ingredients5 from './AckeeAndSaltish/Ingredients5'
-import ItalIngredients5 from './AckeeAndSaltish/ItalIngredients5'
-import Ingredients6 from './AckeeAndSaltish/Ingredients6'
-import ItalIngredients6 from './AckeeAndSaltish/ItalIngredients6'
+import Ingredients2 from './ackeeAndSaltish/Ingredients2'
+import ItalIngredients2 from './ackeeAndSaltish/ItalIngredients2'
+import Ingredients3 from './ackeeAndSaltish/Ingredients3'
+import ItalIngredients3 from './ackeeAndSaltish/ItalIngredients3'
+import Ingredients4 from './ackeeAndSaltish/Ingredients4'
+import ItalIngredients4 from './ackeeAndSaltish/ItalIngredients4'
+import Ingredients5 from './ackeeAndSaltish/Ingredients5'
+import ItalIngredients5 from './ackeeAndSaltish/ItalIngredients5'
+import Ingredients6 from './ackeeAndSaltish/Ingredients6'
+import ItalIngredients6 from './ackeeAndSaltish/ItalIngredients6'
 
-import Brief from './AckeeAndSaltish/Brief'
-import Directions from './AckeeAndSaltish/Directions'
-import DirectionsItal from './AckeeAndSaltish/DirectionsItal'
+import Brief from './ackeeAndSaltish/Brief'
+import Directions from './ackeeAndSaltish/Directions'
+import DirectionsItal from './ackeeAndSaltish/DirectionsItal'
 
 
 const AckeeAndSaltfish = () => {
