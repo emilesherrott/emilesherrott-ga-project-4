@@ -15,7 +15,6 @@ class Crop(models.Model):
     sow = models.ManyToManyField(
         "sows.Sow",
         related_name="sows",
-        null=True
     )
     owner = models.ForeignKey(
         "jwt_auth.User",
