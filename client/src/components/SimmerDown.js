@@ -30,7 +30,7 @@ const SimmerDown = () => {
             <h2 className="grows-subheader-text">Red Pea Soup</h2>
           </div>
           <div>
-            <h2 className="grows-subheader-text">Oxtail</h2>
+            <h2 className="grows-subheader-text">Jerk Chicken</h2>
           </div>
         </div>
       </div>
