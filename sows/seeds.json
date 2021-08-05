@@ -1,0 +1,9 @@
+[
+  {
+    "model": "sows.sow",
+    "pk": 1,
+    "fields": {
+      "id": 1
+  }
+}
+]
