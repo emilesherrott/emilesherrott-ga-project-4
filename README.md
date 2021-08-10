@@ -10,7 +10,7 @@ Project 4 | Brief
 Name | Simmer Down, Rum Up
 Skills | HTML5, CSS3, Sass, Bootstrap, JavaScript, React, Python, PostgreSQL, Django
 Time Frame | 1 Week
-Team Members | Individual
+Participants | Individual
 
 ### Setting up on a local machine
 1. Clone to repository onto your local machine by either:
