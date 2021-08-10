@@ -2,10 +2,10 @@
 ## [Simmer Down, Rum Up](https://emilesherrott-ga-project-4.herokuapp.com/)
 ### Project Description
 
-A group project MERN application created with RESTful routes. Created with agile working principles, as a team we met each morning for standup to communicate our project priorities, to set targets for accountability and share effective working habits. 
+A fullstack Django App with RESTful routes. This solo-project is based on a React frontend and a Django backend linked to a PostgreSQL Database featuring one, 'One-To-Many' relationship and one 'Many-To-Many' relationship. My inspiration for the project came from growing up in a British-Jamaican household and the cuisine which I grew up around. 
 
 ### Overview
-Project 1 | Brief
+Project 4 | Brief
 -------------|--------------
 Name | Simmer Down, Rum Up
 Skills | HTML5, CSS3, Sass, Bootstrap, JavaScript, React, Python, PostgreSQL, Django
@@ -14,10 +14,9 @@ Team Members | Individual
 
 ### Setting up on a local machine
 1. Clone to repository onto your local machine by either:
-   * Running `git clone git@github.com:emilesherrott/emilesherrott-ga-project-3.git` from your terminal. 
-   * Downloading the emilesherrott-ga-project-.zip file and open in your prefered code editor. 
+   * Running `git clone git@github.com:emilesherrott/emilesherrott-ga-project-4.git` from your terminal. 
+   * Downloading the emilesherrott-ga-project-4.zip file and open in your prefered code editor. 
 2. Open up the terminal in your code editor. 
-   * From the root folder run `yarn seed`
    * From the client folder run `yarn start` 
 
 Getting Started These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
