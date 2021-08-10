@@ -1,4 +1,24 @@
-Project Title One Paragraph of project description goes here
+# emilesherrott-ga-project-4
+## [Simmer Down, Rum Up](https://emilesherrott-ga-project-4.herokuapp.com/)
+### Project Description
+
+A group project MERN application created with RESTful routes. Created with agile working principles, as a team we met each morning for standup to communicate our project priorities, to set targets for accountability and share effective working habits. 
+
+### Overview
+Project 1 | Brief
+-------------|--------------
+Name | Simmer Down, Rum Up
+Skills | HTML5, CSS3, Sass, Bootstrap, JavaScript, React, Python, PostgreSQL, Django
+Time Frame | 1 Week
+Team Members | Individual
+
+### Setting up on a local machine
+1. Clone to repository onto your local machine by either:
+   * Running `git clone git@github.com:emilesherrott/emilesherrott-ga-project-3.git` from your terminal. 
+   * Downloading the emilesherrott-ga-project-.zip file and open in your prefered code editor. 
+2. Open up the terminal in your code editor. 
+   * From the root folder run `yarn seed`
+   * From the client folder run `yarn start` 
 
 Getting Started These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
