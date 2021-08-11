@@ -12,21 +12,28 @@ Time Frame | 7 Days
 Skills | HTML5, CSS3, Sass, Bootstrap, JavaScript, React, Python, PostgreSQL, Django
 Deployment | Heroku
 
+### Table of Contents  
+* [Setting up on a local machine](#anchor-1)
+* [Project Approach](#anchor-2)
+* [Project Challenges](#anchor-3)
+* [Project Bugs](#anchor-4)
+* [Project Learning Outcomes](#anchor-5)
+* [Acknowledgements](#anchor-6)
 
-### Setting up on a local machine
+### Setting up on a local machine <a id="anchor-1"></a>
 1. Clone to repository onto your local machine by either:
    * Running `git clone git@github.com:emilesherrott/emilesherrott-ga-project-4.git` from your terminal. 
    * Downloading the emilesherrott-ga-project-4.zip file and open in your prefered code editor. 
 2. Open up the terminal in your code editor. 
    * From the client folder run `yarn start` 
 
-### Project Approach
+### Project Approach <a id="anchor-2"></a>
 
-### Project Challenges
+### Project Challenges <a id="anchor-3"></a>
 
-### Project Bugs
+### Project Bugs <a id="anchor-4"></a>
 
-### What was learnt from building emilesherrott-ga-project-4
+### Project Learning Outcomes <a id="anchor-5"></a>
 
-### Acknowledgements
+### Acknowledgements <a id="anchor-6"></a>
 
