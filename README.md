@@ -1,5 +1,5 @@
 # emilesherrott-ga-project-4
-## [Simmer Down, Rum Up](https://emilesherrott-ga-project-4.herokuapp.com/)
+## Deployed: [Simmer Down, Rum Up](https://emilesherrott-ga-project-4.herokuapp.com/)
 ### Project Description
 
 A fullstack Django App with RESTful routes. This solo-project is based on a React frontend and a Django backend linked to a PostgreSQL Database featuring one, 'One-To-Many' relationship and one 'Many-To-Many' relationship. My inspiration for the project came from growing up in a British-Jamaican household and the cuisine which I grew up around. 
