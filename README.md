@@ -7,10 +7,11 @@ A fullstack Django App with RESTful routes. This solo-project is based on a Reac
 ### Overview
 Project 4 | Brief
 -------------|--------------
-Name | Simmer Down, Rum Up
-Skills | HTML5, CSS3, Sass, Bootstrap, JavaScript, React, Python, PostgreSQL, Django
-Time Frame | 1 Week
 Participants | Individual
+Time Frame | 7 Days
+Skills | HTML5, CSS3, Sass, Bootstrap, JavaScript, React, Python, PostgreSQL, Django
+Deployment | Heroku
+
 
 ### Setting up on a local machine
 1. Clone to repository onto your local machine by either:
