@@ -12,6 +12,9 @@ Time Frame | 7 Days
 Skills | HTML5, CSS3, Sass, Bootstrap, JavaScript, React, Python, PostgreSQL, Django
 Deployment | Heroku
 
+### Preview
+![ Alt text](emilesherrott-ga-project-4-gif.gif) [](emilesherrott-ga-project-4-gif.gif)
+
 ### Table of Contents  
 * [Setting up on a local machine](#anchor-1)
 * [Project Approach](#anchor-2)
